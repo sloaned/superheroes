@@ -1,2 +1,0 @@
-# superheroes
-Superhero practice project
