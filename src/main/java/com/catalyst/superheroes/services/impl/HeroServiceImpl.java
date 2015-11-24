@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
+import com.catalyst.superheroes.daos.HeroDao;
 import com.catalyst.superheroes.entities.Hero;
 import com.catalyst.superheroes.services.HeroService;
 
