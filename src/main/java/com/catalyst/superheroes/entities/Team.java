@@ -3,7 +3,7 @@ package com.catalyst.superheroes.entities;
 import java.util.Set;
 
 import javax.persistence.*;
-
+@Entity
 public class Team {
 	
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
