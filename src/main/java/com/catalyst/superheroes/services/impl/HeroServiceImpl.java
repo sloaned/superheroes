@@ -3,11 +3,13 @@ package com.catalyst.superheroes.services.impl;
 import java.util.ArrayList;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.catalyst.superheroes.daos.HeroDao;
 import com.catalyst.superheroes.entities.Hero;
 import com.catalyst.superheroes.services.HeroService;
 
+@Service
 public class HeroServiceImpl implements HeroService{
 	
 	@Autowired
