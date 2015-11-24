@@ -30,6 +30,6 @@ function addDataToRow(hero){
 	var inches = parseInt(hero.height)%12;
 	var height = feet + "' " + inches + "\"";
 	var row = "<tr><td>" + hero.heroName + "</td><td>" + hero.realName + "</td><td>" + hero.origin +
-		"</td><td>" + hero.costume + "</td><td>" + height + "</td><td>" + hero.weight + "</td><td>" + powers + "</td></tr>";
+		"</td><td><img src='" + hero.costume + "'/></td><td>" + height + "</td><td>" + hero.weight + "</td><td>" + powers + "</td></tr>";
 	$("#heroTable tbody").append(row);
 };
